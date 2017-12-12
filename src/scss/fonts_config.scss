@@ -1,0 +1,128 @@
+$font_path: './assets/fonts/';
+
+/* Material icons */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url($font_path + 'Material.woff') format('woff'),
+         url($font_path + 'Material.woff2') format('woff2'),
+         url($font_path + 'Material.ttf') format('truetype'),
+         url($font_path + 'Material.eot') format('embedded-opentype'),
+         url($font_path + 'Material.svg') format('svg');
+}
+
+/* ROBOTO */
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-style: normal;
+    src: url($font_path + 'Roboto-Thin.woff') format("woff"),
+         url($font_path + 'Roboto-Thin.woff2') format("woff2"),
+         url($font_path + 'Roboto-Thin.ttf') format("truetype"),
+         url($font_path + 'Roboto-Thin-webfont.eot') format("embedded-opentype"),
+         url($font_path + 'Roboto-Thin-webfont.svg') format("svg");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
+    src: url($font_path + 'Roboto-Light.woff') format("woff"),
+         url($font_path + 'Roboto-Light.woff2') format("woff2"),
+         url($font_path + 'Roboto-Light.ttf') format("truetype"),
+         url($font_path + 'Roboto-Light-webfont.eot') format("embedded-opentype"),
+         url($font_path + 'Roboto-Light-webfont.svg') format("svg");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    src: url($font_path + 'Roboto-Regular.woff') format("woff"),
+         url($font_path + 'Roboto-Regular.woff2') format("woff2"),
+         url($font_path + 'Roboto-Regular.ttf') format("truetype"),
+         url($font_path + 'Roboto-Regular-webfont.eot') format("embedded-opentype"),
+         url($font_path + 'Roboto-Regular-webfont.svg') format("svg");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    src: url($font_path + 'Roboto-Medium.woff') format("woff"),
+         url($font_path + 'Roboto-Medium.woff2') format("woff2"),
+         url($font_path + 'Roboto-Medium.ttf') format("truetype"),
+         url($font_path + 'Roboto-Medium-webfont.eot') format("embedded-opentype"),
+         url($font_path + 'Roboto-Medium-webfont.svg') format("svg");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    src: url($font_path + 'Roboto-Bold.woff') format("woff"),
+         url($font_path + 'Roboto-Bold.woff2') format("woff2"),
+         url($font_path + 'Roboto-Bold.ttf') format("truetype"),
+         url($font_path + 'Roboto-Bold-webfont.eot') format("embedded-opentype"),
+         url($font_path + 'Roboto-Bold-webfont.svg') format("svg");
+}
+
+/* SOURCE SANS PRO */
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: 100;
+    font-style: normal;
+    src: url($font_path + 'SourceSansPro-ExtraLight.otf.woff') format("woff"),
+         url($font_path + 'SourceSansPro-ExtraLight.otf.woff2') format("woff2"),
+         url($font_path + 'SourceSansPro-ExtraLight.ttf') format("truetype"),
+         url($font_path + 'SourceSansPro-ExtraLight.eot') format("embedded-opentype"),
+         url($font_path + 'SourceSansPro-ExtraLight.otf') format("otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-style: normal;
+    src: url($font_path + 'SourceSansPro-Light.otf.woff') format("woff"),
+         url($font_path + 'SourceSansPro-Light.otf.woff2') format("woff2"),
+         url($font_path + 'SourceSansPro-Light.ttf') format("truetype"),
+         url($font_path + 'SourceSansPro-Light.eot') format("embedded-opentype"),
+         url($font_path + 'SourceSansPro-Light.otf') format("otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-style: normal;
+    src: url($font_path + 'SourceSansPro-Regular.otf.woff') format("woff"),
+         url($font_path + 'SourceSansPro-Regular.otf.woff2') format("woff2"),
+         url($font_path + 'SourceSansPro-Regular.ttf') format("truetype"),
+         url($font_path + 'SourceSansPro-Regular.eot') format("embedded-opentype"),
+         url($font_path + 'SourceSansPro-Regular.otf') format("otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+    font-style: normal;
+    src: url($font_path + 'SourceSansPro-Semibold.otf.woff') format("woff"),
+         url($font_path + 'SourceSansPro-Semibold.otf.woff2') format("woff2"),
+         url($font_path + 'SourceSansPro-Semibold.ttf') format("truetype"),
+         url($font_path + 'SourceSansPro-Semibold.eot') format("embedded-opentype"),
+         url($font_path + 'SourceSansPro-Semibold.otf') format("otf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-style: normal;
+    src: url($font_path + 'SourceSansPro-Bold.otf.woff') format("woff"),
+         url($font_path + 'SourceSansPro-Bold.otf.woff2') format("woff2"),
+         url($font_path + 'SourceSansPro-Bold.ttf') format("truetype"),
+         url($font_path + 'SourceSansPro-Bold.eot') format("embedded-opentype"),
+         url($font_path + 'SourceSansPro-Bold.otf') format("otf");
+}
